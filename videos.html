@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BerandaJalanJalan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1{
+            text-align: center;
+            margin: 25px auto;
+        }
+        .videoku{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 80%;
+            margin: 10px auto;
+            margin-top: 100px;
+        }
+
+        .videoku iframe {
+            width: 80%;
+            height: 352px;
+            border-radius: 12px;
+            border: none;
+            margin-bottom: 20px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="menu_bar">
+        <h1 class="Logo">Jalan<span>Jalan</span></h1>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Vibes<i class="fas fa-caret-down"></i></a>
+                <div class="dropdown_menu">
+                    <ul>
+                        <li><a href="songs.html">Songs</a></li>
+                        <li><a href="videos.html">Videos</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="destinations.html">Destinations</a></li>
+            
+        </ul>
+    </div>
+
+    <h1>Cinematic Video Destinasi Wisata Indonesia yang Populer</h1>
+
+    <div class="videoku">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Wc2Ig7cSzvs" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/fA3cWHIvVow" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <button class="rate" onclick="showAlert()">
+        Rate Us
+    </button>
+
+    <footer>
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <p>Namira Anjani Pramadhani - 20220140081 - B - UCP Praktikum PDW </p>
+        </div>
+    </footer>
+    <script src="script1.js"></script>
+</body>
+</html>
